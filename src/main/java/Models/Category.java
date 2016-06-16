@@ -6,12 +6,12 @@ package Models;
 public class Category {
     
     private int id;
-    private String name;
+    private String nombre;
     private String description;
 
-    public Category(int id, String name, String description) {
+    public Category(int id, String nombre, String description) {
         this.id = id;
-        this.name = name;
+        this.nombre = nombre;
         this.description = description;
     }
 
@@ -23,12 +23,12 @@ public class Category {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getDescription() {
